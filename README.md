@@ -21,22 +21,12 @@ CSV File  →  Databricks (ETL)  →  Delta Table  →  Excel (Analysis)  →  P
 ## Repository Structure
 
 ```
-bright-coffee-shop/
-├── README.md
-├── data/
-│   ├── raw/
-│   │   └── bright_coffee_shop_sales.csv        # Source data (converted from Excel)
-│   └── processed/
-│       └── bright_coffee_shop_cleaned.xlsx     # Cleaned & transformed dataset with pivot tables
-├── databricks/
-│   └── etl_pipeline.sql                        # SQL transformations (time buckets, aggregations)
-├── planning/
-│   └── miro_architecture_diagram.[link/png]    # Data flow & architecture diagram
-├── analysis/
-│   └── bright_coffee_shop_analysis.xlsx        # Pivot tables + charts
-└── presentation/
-    ├── methodology.docx                         # Approach & methodology document
-    └── ceo_deck.pptx                            # Final CEO presentation
+Bright-Coffee-Shop/
+├── Coffee_Shop_Data.xlsx
+├── Coffee Shop Analysis.dbquery.ipynb
+├── methodology.docx
+├── ceo_deck.pptx
+└── README.md
 ```
 
 ---

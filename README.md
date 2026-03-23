@@ -22,6 +22,7 @@ CSV File  →  Databricks (ETL)  →  Delta Table  →  Excel (Analysis)  →  P
 
 ```
 Bright-Coffee-Shop/
+├── Coffee_Shop_Data cleaned.xlsx
 ├── Coffee_Shop_Data.xlsx
 ├── Coffee Shop Analysis.dbquery.ipynb
 ├── methodology.docx
